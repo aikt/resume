@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 20 14% 4%;
+    --foreground: 0 0% 98%;
+
+    --card: 20 14% 4%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 20 14% 4%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --accent: 15 81% 48%;
+    --accent-foreground: 0 0% 98%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+
+  .profile-card {
+    @apply bg-white text-black p-6 rounded-3xl;
+  }
+
+  .section-title {
+    @apply text-7xl font-bold text-white;
+  }
+
+  .section-subtitle {
+    @apply text-7xl font-bold text-[#444444];
+  }
+
+  .accent-text {
+    @apply text-[#e55e2f];
+  }
+
+  .accent-bg {
+    @apply bg-[#e55e2f];
+  }
+
+  .card-item {
+    @apply rounded-2xl p-4 text-white;
+  }
+
+  .form-input {
+    @apply bg-[#444444] border-none rounded-lg p-4 text-white w-full;
+  }
+
+  .submit-button {
+    @apply accent-bg text-white font-medium rounded-lg p-3 w-full;
+  }
+}
