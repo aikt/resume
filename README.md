@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portafolio Personal - Desarrollador Full Stack
 
-## Getting Started
+## 👋 ¡Hola! Soy SYGNO
 
-First, run the development server:
+Bienvenido a mi portafolio personal, un proyecto que no solo muestra mi trabajo sino que también demuestra mis habilidades técnicas en el desarrollo web moderno.
+
+### 🚀 Stack Tecnológico
+
+Este portafolio está construido con las siguientes tecnologías de vanguardia:
+
+- **Next.js 15.2.0** - Framework React de última generación
+- **React 18.3.1** - Biblioteca principal para construcción de interfaces
+- **TypeScript** - Para un desarrollo más robusto y tipado
+- **Tailwind CSS** - Framework de utilidades CSS para diseño moderno
+- **Shadcn/ui** - Componentes UI elegantes y personalizables
+
+### 💻 Características Técnicas
+
+- Arquitectura moderna basada en el App Router de Next.js
+- Desarrollo optimizado con Turbopack
+- Componentes modulares y reutilizables
+- Animaciones fluidas con Tailwind
+- Diseño responsivo y accesible
+- Despliegue automatizado en Netlify
+
+### 🛠️ Competencias Técnicas Demostradas
+
+- Desarrollo Frontend Avanzado
+- Arquitectura de Aplicaciones Modernas
+- Optimización de Rendimiento
+- Mejores Prácticas de Desarrollo
+- Control de Versiones con Git
+- Implementación de UI/UX Moderno
+
+### 📫 Contacto
+
+¿Interesado en colaborar o conocer más sobre mi trabajo? ¡Contáctame!
+
+[Aquí puedes agregar tus enlaces de contacto y redes sociales]
+
+### 🚀 Ejecutar el Proyecto
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Instalar dependencias
+bun install
+
+# Iniciar servidor de desarrollo
+bun run dev
+
+# Construir para producción
+bun run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+Desarrollado con 💻 por SYGNO | © 2024
