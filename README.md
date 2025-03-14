@@ -1,6 +1,6 @@
 # Portafolio Personal - Desarrollador Full Stack
 
-## 👋 ¡Hola! Soy SYGNO
+## 👋 ¡Hola! Soy Reynaldo
 
 Bienvenido a mi portafolio personal, un proyecto que no solo muestra mi trabajo sino que también demuestra mis habilidades técnicas en el desarrollo web moderno.
 
