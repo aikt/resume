@@ -52,4 +52,4 @@ bun run build
 ```
 
 ---
-Desarrollado con 💻 por SYGNO | © 2024
+Desarrollado con una laptop 💻 
